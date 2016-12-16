@@ -1,0 +1,26 @@
+{
+  "name": "jderusse/format",
+  "description": "Simple function to format strings",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "format",
+    "sprintf",
+    "string"
+  ],
+  "authors": [
+    {
+      "name": "Jérémy Derussé",
+      "homepage": "https://twitter.com/jderusse"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8"
+  },
+  "autoload": {
+    "files": [ "src/format.php" ]
+  }
+}
